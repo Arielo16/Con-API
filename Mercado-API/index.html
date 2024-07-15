@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <h1>BuscaShop</h1>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <p>Encuentra tus productos favoritos aqui!!</p>
+        </div>
+    </header>
+    
+    <!-- Contenido principal -->
+    <main class="container mt-5">
+        <div class="search-container d-flex justify-content-center mb-3">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar productos...">
+            <button id="searchButton" class="btn btn-primary">Buscar</button>
+        </div>
+        <div id="results" class="row justify-content-center"></div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
