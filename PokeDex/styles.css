@@ -1,0 +1,137 @@
+body {
+    background-color: #00a0e9;
+    font-family: 'Arial', sans-serif;
+}
+
+.pokedex {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    border: 5px solid #000;
+    background-color: #ff0000;
+    position: relative; /* Añadido para posicionar elementos dentro de la Pokédex */
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+.screen {
+    background-color: #fff;
+    padding: 20px;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+.pokemon-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.pokemon-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.pokemon-info {
+    text-align: center;
+}
+
+#shiny-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffdd00;
+    border: none;
+    cursor: pointer;
+}
+
+.stats p, .types p, .move p {
+    margin: 10px 0;
+}
+
+.evolution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.evolution-stage {
+    text-align: center;
+}
+
+.evolution-stage img {
+    width: 100px;
+}
+
+button {
+    background-color: #00ff00;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#pokemon-id-input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.pokemon-info-container {
+    background-color: #fff;
+    border: 5px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-info {
+    text-align: center;
+}
+
+.pokemon-image-container {
+    background-color: #fff;
+    border: 5px solid #000;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px; /* Aumentado el tamaño de la imagen */
+    margin-bottom: 5px; /* Espacio entre la imagen y los datos */
+}
+
+.pokemon-image img {
+    max-width: 300px; /* Aumentado el tamaño máximo de la imagen */
+    max-height: 300px; /* Aumentado el tamaño máximo de la imagen */
+}
+
+.pokemon-name-container {
+    background-color: #fff;
+    border: 5px solid #000;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pokemon-number-container {
+    background-color: #fff;
+    border: 5px solid #000;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}

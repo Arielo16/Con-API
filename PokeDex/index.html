@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pokedex">
+        <div class="left-panel">
+            <div class="pokemon-name-container">
+                <h2 id="pokemon-name">Ivysaur</h2>
+            </div>
+            <div class="pokemon-number-container">
+                <p id="pokemon-number">No. 2</p>
+            </div>
+            <div class="pokemon-image-container">
+                <div class="pokemon-image">
+                    <img id="pokemon-img" src="" alt="Pokemon">
+                </div>
+            </div>
+            <div class="pokemon-info-container">
+                <div class="pokemon-info">
+                    <p id="pokemon-description">When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.</p>
+                </div>
+            </div>
+            <button id="shiny-btn">SHINY</button>
+        </div>
+        <div class="right-panel">
+            <div class="stats">
+                <p>Hp: <span id="hp">60</span></p>
+                <p>Attack: <span id="attack">62</span></p>
+                <p>Defense: <span id="defense">63</span></p>
+                <p>Special-Attack: <span id="special-attack">80</span></p>
+                <p>Special-Defense: <span id="special-defense">80</span></p>
+                <p>Speed: <span id="speed">60</span></p>
+            </div>
+            <div class="types">
+                <p>Types</p>
+                <button id="type1">GRASS</button>
+                <button id="type2">POISON</button>
+            </div>
+            <div class="evolution">
+                <div class="evolution-stage">
+                    <img id="evolution1" src="" alt="Evolution 1">
+                    <p id="evolution1-name">bulbasaur</p>
+                </div>
+                <div class="evolution-stage">
+                    <img id="evolution2" src="" alt="Evolution 2">
+                    <p id="evolution2-name">ivysaur</p>
+                </div>
+                <div class="evolution-stage">
+                    <img id="evolution3" src="" alt="Evolution 3">
+                    <p id="evolution3-name">venusaur</p>
+                </div>
+            </div>
+            <div class="move">
+                <p>Swords-Dance</p>
+                <p>TYPE: NORMAL</p>
+                <p>Accuracy: xx</p>
+                <p>Power: xx</p>
+                <p>PP: 20</p>
+                <p>Learn: Lvl 0</p>
+            </div>
+            <div class="navigation">
+                <button id="prev-btn">&lt;</button>
+                <input type="number" id="pokemon-id-input" min="1" placeholder="ID">
+                <button id="next-btn">&gt;</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
